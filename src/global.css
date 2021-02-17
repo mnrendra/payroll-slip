@@ -1,0 +1,107 @@
+.container {
+  padding: 12px 24px;
+}
+
+.container .Form,
+.container .PaySlip,
+.container .TaxDetails,
+.container .BPJSDetails,
+.container .CompanyOutlay {
+  padding: 12px 0;
+}
+
+.row {
+  margin: 0;
+}
+
+.PaySlip .card-body {
+  padding: 20px 10px;
+}
+
+.PaySlip .card-body .col {
+  padding: 0 10px;
+}
+
+.PaySlip .Incomes .card,
+.PaySlip .Deductions .card {
+  border-color: #F0F0F0;
+}
+
+.PaySlip .Incomes .card-header,
+.PaySlip .Deductions .card-header {
+  background: #FAFAFA;
+  border-color: #F0F0F0;
+}
+
+.PaySlip .Incomes .card-body,
+.PaySlip .Deductions .card-body {
+  border-color: #F0F0F0;
+  padding: 20px;
+}
+
+.PaySlip .Incomes .card-body .row div,
+.PaySlip .Deductions .card-body .row div {
+  padding: 0;
+}
+
+.PaySlip .Incomes .card-body .row div:last-child,
+.PaySlip .Deductions .card-body .row div:last-child {
+  text-align: right;
+}
+
+.PaySlip .Incomes .card-body .row.bold,
+.PaySlip .Deductions .card-body .row.bold {
+  font-weight: bold;
+}
+
+.PaySlip .Incomes .row div,
+.PaySlip .Deductions .row div {
+  padding: 0px;
+}
+
+.PaySlip .Incomes .row div:last-child,
+.PaySlip .Deductions .row div:last-child {
+  text-align: right;
+}
+
+.PaySlip .Incomes .row.bold div,
+.PaySlip .Deductions .row.bold div {
+  font-weight: bold;
+}
+
+.DropDown .form-group,
+.Input .form-group {
+  margin: 0;
+}
+
+.input-group .dropdown button {
+  border-color: #ced4da;
+}
+
+.input-group .dropdown button::after {
+  color: #ced4da;
+}
+
+.dropdown button {
+  width: 100%;
+}
+
+.dropdown.no-border-radius button {
+  border-radius: 0;
+}
+
+.dropdown.no-border-right button {
+  border-right: none;
+}
+
+.dropdown.no-border-left button {
+  border-left: none;
+}
+
+.dropdown .weekend {
+  color: rgba(0, 0, 0, .64);
+}
+
+.custom-control.custom-switch {
+  padding: 7px 0;
+}
